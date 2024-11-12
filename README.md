@@ -91,15 +91,15 @@ you can paste the address in the components folder. In Voting_main.jsx.
      ![GUI](https://github.com/tarrpurra/Vote/blob/main/images/gancahe-Gui3.png "GUI")
 
   - install metaMask extension  for the transactions and also connect you metamask wallet to ganache wallet using the private key.In meta Mask click on account and click on import account and paste the private key in metamask and connenct it to your wallet. 
-     ![Front](https://github.com/tarrpurra/Vote/blob/main/images/frontend.png"frontend")
+     ![Front](https://github.com/tarrpurra/Vote/blob/main/images/frontend.png "frontend")
     
 - Now you are ready to use the app for voting
 - Result Photos
-    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front1.png"frontend")
-    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front2.png"frontend")
-    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front3.png"frontend")
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front1.png "frontend")
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front2.png "frontend")
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front3.png "frontend")
   If you try to vote from the same address 
-    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front4.png"frontend")
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front4.png "frontend")
   
 
 
