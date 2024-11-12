@@ -1,7 +1,7 @@
 # Decentralized Voting System
 This project is a Decentralized Voting System that enables secure, transparent, and tamper-proof voting through blockchain technology.It consists of a React frontend and an Express/Node.js backend that work together to allow users to cast their votes safely.
 <p>🚨 $${\color{red}Attention}$$ <b>This project  works well in the local machine and uses gas money when voting thus it try to simulate the transaction through Ganache.</b></p>
-🚨 $${\color{red}Delete the Build folder}$$ 
+<p>🚨 $${\color{red}Delete}$$ <b> BUILD folder as you need to create new one </b> </p>
 
 ## Table of Contents
 
@@ -66,15 +66,15 @@ use npm run dev to run the frontend
 First of all before you try to vote you need to compile the contract using truffle also ganche is must as it provide enviroment and can provide transaction details also provide you with different accounts. In the project I have used ganche GUI but you can use CLI also.
 - If using GUI one
   -Then download from the original website and when opened you will see it like this-
-  ![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
-after this you can check the workspace that was created.
+  ![Ganache](https://github.com/tarrpurra/Vote/blob/main/images/gancahe-Gui.png "Ganache")
+after installtion this you can start new workspace and check the workspace that was created.
 - If using ClI one
    - Use the command
      ```bash
        ganache-cli --a
      ```
 - In the workspace you can see various dummy etherium wallets
-    ![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+    ![Gabache](https://github.com/tarrpurra/Vote/blob/main/images/gancahe-Gui2.png"Ganache")
 
 -compile the contract using 
 ```bash
@@ -85,13 +85,21 @@ after compiling you will get build folder
   truffle migrate --network development
 ```
 after running this you will get contract address.
+![GUI](https://github.com/tarrpurra/Vote/blob/main/images/gancahe-Gui3.png "GUI")
+![GUI](https://github.com/tarrpurra/Vote/blob/main/images/Ganche.png "GUI")
 you can paste the address in the components folder. In Voting_main.jsx.
-     ![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+     ![GUI](https://github.com/tarrpurra/Vote/blob/main/images/gancahe-Gui3.png "GUI")
 
   - install metaMask extension  for the transactions and also connect you metamask wallet to ganache wallet using the private key.In meta Mask click on account and click on import account and paste the private key in metamask and connenct it to your wallet. 
-     ![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+     ![Front](https://github.com/tarrpurra/Vote/blob/main/images/frontend.png"frontend")
     
 - Now you are ready to use the app for voting
+- Result Photos
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/frontend.png"frontend")
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/frontend.png"frontend")
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/frontend.png"frontend")
+    ![Front](https://github.com/tarrpurra/Vote/blob/main/images/frontend.png"frontend")
+  
 
 
 ## Built With
