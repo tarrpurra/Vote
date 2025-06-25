@@ -2,7 +2,7 @@
 
 This project is a Decentralized Voting System that enables secure, transparent, and tamper-proof voting through blockchain technology.It consists of a React frontend and an Express/Node.js backend that work together to allow users to cast their votes safely.
 
-<p>🚨 $${\color{red}Attention}$$ <b>This project  uses hardhat to compile the contract and uses hardhat for deplymrnt also..</b></p>
+<p>🚨 $${\color{red}Attention}$$ <b>This project  uses hardhat to compile the contract and uses hardhat for deployment.</b></p>
 <p>🚨 $${\color{red}Delete}$$ <b> If you want to use the project delete the deployment folder and re-deploy with your favourite testnet or use Onchain block chain. </b> </p>
 
 ## Table of Contents
