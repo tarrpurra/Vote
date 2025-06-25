@@ -166,6 +166,3 @@ This project is licensed under the MIT License.
 
 The project needs more work like user face detection with the type of the Identification card.
 
-```
-
-```
