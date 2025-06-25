@@ -115,7 +115,7 @@ npx hardhat igniton deploy ./ignition/modules/votingsystem.js  --network localho
 
 if you want to deploy on custom network
 go to the <b>hardhat-config file and add the custom network also add your wallet private address for contract deployment.
-![Front](https://github.com/tarrpurra/Vote/blob/main/images/hardhat-deployment.png "frontend")
+![Front](https://github.com/tarrpurra/Vote/blob/hardhat-env-support/images/hardhat-deployment.png "frontend")
 
 5. After deployment, you will get the contract address. Copy this address and update it in the frontend:
 
@@ -144,13 +144,13 @@ go to the <b>hardhat-config file and add the custom network also add your wallet
 - Now you are ready to use the app for voting
 - Now you can create new poll also.
 - Result Photos
-  ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front1.png "frontend")
+  ![Front](https://github.com/tarrpurra/Vote/blob/hardhat-env-support/images/front1.png "frontend")
   <b> Can create new polls add options remove options for the poll also add whitelist which wallet can only vote and also can adjust the timer also.</b>
-  ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front2.png "frontend")
+  ![Front](https://github.com/tarrpurra/Vote/blob/hardhat-env-support/images/front2.png "frontend")
   <b>Register for the vote and provide an ID</b>
-  ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front3.png "frontend")
+  ![Front](https://github.com/tarrpurra/Vote/blob/hardhat-env-support/images/front3.png "frontend")
   <b>After register user can see all the live polls and can choose the poll they want and give there vote</b>
-  ![Front](https://github.com/tarrpurra/Vote/blob/main/images/front4.png "frontend")
+  ![Front](https://github.com/tarrpurra/Vote/blob/hardhat-env-support/images/front4.png "frontend")
 
 ## Built With
 
