@@ -17,7 +17,7 @@ export const useInfo = create((set) => ({
     formData.append("ID_Number", ID_Number);
     formData.append("ID_Photo", ID_Photo);
 
-    const apiUrl = import.meta.env.VITE_API_URL || "";
+    const apiUrl = import.meta.env.VITE_API_URL || "https://vote-18p1.onrender.com";
     try {
       const res = await fetch(`${apiUrl}/api/login`, {
         method: "POST",
