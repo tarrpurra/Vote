@@ -2,7 +2,7 @@
 import Web3 from "web3";
 import VotingContract from "../../abi.json"; // Update the path if needed
 
-const CONTRACT_ADDRESS = "0xe177a9a8d3b49fC614B98b7c8f9fD379389e848d"; // Replace with your actual deployed contract address
+const CONTRACT_ADDRESS = "0x3C6E4a239DC9C359bb6Ab0E72ccD3824856A01Ab"; // Replace with your actual deployed contract address
 
 export async function initializeContract() {
   if (!window.ethereum) {

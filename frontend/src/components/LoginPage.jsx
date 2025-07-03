@@ -3,6 +3,8 @@ import { useState, useRef } from "react";
 import { useInfo } from "../info/information";
 import { initializeContract, createPoll } from "./contract_connection";
 import PropTypes from "prop-types";
+import VotingImg from "../assets/Voting.png";
+import createpoll from "../assets/creation.png";
 
 function Notification({ message, type, onClose }) {
   if (!message) return null;
@@ -273,7 +275,9 @@ export default function Login() {
         }`}
       >
         {/* Image Section - Left Side */}
-        <div className="w-1/2 h-full bg-portal-front bg-center bg-cover bg-no-repeat bg-black border-r-4 border-gray-900"></div>
+        <div className="w-1/2 h-full  bg-center bg-cover bg-no-repeat bg-black border-r-4 border-gray-900">
+          <img src={VotingImg} alt="Voting" />
+        </div>
 
         {/* Form Section - Right Side */}
         <div className="w-1/2 h-full flex items-center justify-center p-4">
@@ -454,9 +458,7 @@ export default function Login() {
               <option value="Aadhar">Passport</option>
               <option value="Pan">Any other id with Photo</option>
               <option value="Voting Id">Voting Id</option>
-              <option value="Ration-other">
-                Goverment recognized card
-              </option>
+              <option value="Ration-other">Goverment recognized card</option>
             </select>
 
             <label htmlFor="idNum" className="mb-2">
@@ -508,7 +510,9 @@ export default function Login() {
         </div>
 
         {/* Image Section - Right Side */}
-        <div className="w-1/2 h-full bg-portal-back bg-center bg-cover bg-no-repeat bg-black border-l-4 border-gray-900"></div>
+        <div className="w-1/2 h-full  bg-center bg-cover bg-no-repeat bg-black border-l-4 border-gray-900">
+          <img src={createpoll} alt="createpoll" />
+        </div>
       </div>
     </div>
   );
